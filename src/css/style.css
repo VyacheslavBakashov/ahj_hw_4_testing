@@ -1,0 +1,76 @@
+
+.cards {
+  height: 25px;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.cards-item {
+  height: 25px;
+  width: 45px;
+  display: flex;
+  padding: 5px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  text-indent: -9999px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  border: 1px solid #8d8d8d;
+}
+
+.visa {
+  background-image: url(../img/visa.png);
+}
+
+.master {
+  background-image: url(../img/mastercard.png);
+}
+
+.mir {
+  background-image: url(../img/mir.png);
+}
+
+.amex {
+  background-image: url(../img/amex.png);
+}
+
+.discover {
+  background-image: url(../img/discover.png);
+}
+
+.jcb {
+  background-image: url(../img/jcb.png);
+}
+
+.diners_club {
+  background-image: url(../img/dinersclub.png);
+}
+
+.form-container {
+  position: relative;
+}
+
+.form-container__input,
+.form-container__button {
+  padding: 6px 12px;
+}
+
+.mismatch {
+  opacity: 0.3;
+}
+
+.valid {
+  border-color: #34dd34;
+}
+
+.not-valid {
+  border-color: #e01212;
+}
